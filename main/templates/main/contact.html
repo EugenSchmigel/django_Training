@@ -1,0 +1,30 @@
+
+    {% extends 'main/base.html' %}
+
+    {% block content %}
+    <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+            <div class="card-body">
+                <p class="card-text">
+                   Office BER <br>
+                   Ofiice MUC
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+            <div class="card-body">
+              <h2>Contact Us</h2>
+                <form method="post">
+                  <input class="form-control mb-2" name="name">
+                  <input class="form-control mb-2" name="email">
+                  <textarea class="form-control mb-2" name="message"></textarea>
+                  <button type="submit" class="btn btn-primary form-control mb-2">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
